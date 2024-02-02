@@ -1,0 +1,2 @@
+# Ignores all the file that has .class as extension
+**/*.class 
