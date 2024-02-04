@@ -3,7 +3,8 @@ public class BinarySearch {
         int start = 0; 
         int end = array.length - 1;
         while (start <= end) {
-            int mid = (start+end) /2;
+            // int mid = (start+end) /2;     // This may go beside the storage capacity of Integer in java
+            int mid = start + ((end-start)/2);
             if (array[mid] == element) {
                 return mid;
             } if (element < array[mid]) {
