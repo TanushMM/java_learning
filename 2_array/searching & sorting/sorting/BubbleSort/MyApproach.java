@@ -4,7 +4,6 @@ public class MyApproach {
         for (int i = 0; i < n-1 ; i++) {
             int swap = 0;
             for (int j = 0; j < n-i-1; j++) {
-                System.out.println("Hello");
                 if (array[j] > array[j+1]) {
                     int temp = array[j];
                     array[j] = array[j+1];
@@ -13,8 +12,7 @@ public class MyApproach {
                 }
             }
             if (swap == 0) {
-                System.out.println("Swap: " + swap);
-                break;
+                return;
             }
         }
     }
