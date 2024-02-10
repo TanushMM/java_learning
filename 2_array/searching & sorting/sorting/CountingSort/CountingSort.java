@@ -21,10 +21,6 @@ public class CountingSort {
                 count[i]--;
             }
         }
-
-        for(int i: array) {
-            System.out.print(i +" ");
-        }
     }
 
     public static void countingSortDescending(int[] array) {
@@ -49,15 +45,25 @@ public class CountingSort {
                 count[i]--;
             }
         }
+    }
 
-        System.out.println();
-        for(int i: array) {
-            System.out.print(i +" ");
+
+    public static void printArray(int[] array) {
+        for(int i =0; i < array.length; i++) {
+            System.out.print(array[i] +" ");
         }
+        System.out.println();
     }
     public static void main(String[] args) {
         int[] array = {1,4,1,3,2,4,3,7};
+        printArray(array);
+
         countingSortAscending(array);
+
+        printArray(array);
+
         countingSortDescending(array);
+
+        printArray(array);
     }    
 }
