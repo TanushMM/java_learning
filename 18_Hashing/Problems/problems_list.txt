@@ -1,0 +1,7 @@
+Majority Element
+Valid anagram
+Count distinct elements
+union & intersection
+Find itenerary for tickets
+largest subarray with sum 0
+subarray sum equals to K
