@@ -1,0 +1,7 @@
+1. Nearby Cars
+2. Connecting N ropes with minimum cost
+3. Weakest soldier
+4. Sliding window maximum
+5. Kth largest/smallest element in a stream
+6. Minimum operation to halve array
+7. Merge K sorted Linked List
